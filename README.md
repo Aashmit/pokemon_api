@@ -5,7 +5,6 @@ This project is a REST API for retrieving Pokémon data using the FastAPI framew
 ## Project Structure
 
 - `app/`
-  - `__init__.py` — Initializes the `app` module.
   - `config.py` — Contains configuration settings and environment variables.
   - `database.py` — Handles database connection and session management.
   - `models.py` — Defines the database models.
