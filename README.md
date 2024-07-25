@@ -86,3 +86,5 @@ uvicorn app.main:app --reload
     -Include query parameters to filter by name and type:
       -name: Filter Pokémon by name.
       -type: Filter Pokémon by type.
+      
+    Example: http://127.0.0.1:8000/api/v1/pokemons?name=pikachu&type=electric
