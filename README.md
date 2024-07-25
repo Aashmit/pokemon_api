@@ -82,7 +82,8 @@ uvicorn app.main:app --reload
 ### Endpoints
 
 -GET /api/v1/pokemons:
-  -Retrieve a list of all Pokémon with their name, image, and type.
-  -Include query parameters to filter by name and type:
-    -name: Filter Pokémon by name.
-    -type: Filter Pokémon by type.
+
+    -Retrieve a list of all Pokémon with their name, image, and type.
+    -Include query parameters to filter by name and type:
+      -name: Filter Pokémon by name.
+      -type: Filter Pokémon by type.
